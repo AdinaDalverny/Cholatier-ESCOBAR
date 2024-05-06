@@ -1,0 +1,35 @@
+/* .articles {
+    height: 100vh; 
+    background-color:darkgray;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+} */
+   
+    
+  
+   .articles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* background-image:url("https://www.bar-bisou.fr/wp-content/uploads/2024/01/meilleure-marque-de-chocolat-francais-scaled.webp"); */
+    /* background-color: beige; */
+    background-image: url(https://cdn-s-www.lalsace.fr/images/E39B182C-EC77-4D60-8E51-ACAB5600F2BB/NW_raw/jeffrey-cagnes-oeuf-et-poule-praline-caramel-noisettes-hachees-version-lait-recouverte-de-poudre-de-cacao-version-noire-recouverte-de-sucre-glace-et-des-poule-lapin-cloche-fait-d-un-enrobage-noir-ou-lait-et-garnis-de-fritures-pralinees-en-forme-de-poussins-ou-d-oeufs-photo-kevinrauzyfoodography-1679994425.jpg);
+    }
+    
+  
+
+  .article {
+    width: 350px;
+    height: 250px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border:solid darksalmon;
+  }

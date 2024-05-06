@@ -1,0 +1,22 @@
+  #feedbacks {
+    /* height: 80vh; 
+    justify-content: space-around;
+    align-items: center; */
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* background: linear-gradient(180deg, sienna, white); */
+    flex-direction: row;
+    
+  }  
+
+  .feedDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 12px;
+    border:solid darksalmon;
+    background:linear-gradient(180deg,beige, sienna);
+  }

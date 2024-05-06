@@ -1,0 +1,32 @@
+
+@import url(feedbacks.css);
+@import url(articles.css);
+@import url(benefices.css);
+@import url(phrases.css);
+@import url(nav.css);
+@import url(contact.css);
+
+
+
+
+  
+  h2 {
+    text-align: center;
+  }
+
+.logo {
+  
+  display: flex;
+  justify-content:space-evenly;
+  padding: 50px;
+  background-color: aliceblue;
+  
+  }
+  
+
+  
+
+  
+
+  
+
